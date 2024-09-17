@@ -5,17 +5,19 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc --outDir netlify/functions && vite build",
+    "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "build:lambda": "tsc --project tsconfig.json"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@netlify/functions": "^2.8.1",
     "@types/node": "^22.5.5",
     "axios": "^1.7.7",
+    "lucide-react": "^0.447.0",
     "mongodb": "^6.9.0",
     "netlify": "^13.1.21",
+    "primeicons": "^7.0.0",
+    "primereact": "^10.8.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
