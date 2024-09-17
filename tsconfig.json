@@ -1,0 +1,17 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "noEmitOnError": false,
+    "target": "es2018",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "strict": true,
+    "outDir": "dist",
+    "moduleResolution": "node"
+  },
+  "include": ["netlify/functions/*.ts"]
+}
